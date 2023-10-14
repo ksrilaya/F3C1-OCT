@@ -1,0 +1,279 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 15px;
+
+}
+
+.head-1 {
+    background-color: black;
+}
+
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px 50px;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.profile {
+    width: 60px;
+}
+
+.nav-bar {
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 848px;
+    height: 64px;
+    padding: 8px, 8px, 8px, 32px;
+    border-radius: 1000px;
+    gap: 32px;
+    margin-left: 170px;
+
+}
+
+.nav-bar>ul {
+    justify-content: space-between;
+    gap: 40px;
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar p {
+    color: grey;
+}
+
+.vertical-line-1 {
+    border-left: 2px solid #69697b1a;
+    height: 30px;
+    margin-right: 10px;
+}
+.hero-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    padding-bottom: 4rem;
+    background-color: #000;
+}
+
+.hero-bar .inner {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./Assets/hero.jpg);
+    background-size: 100%;
+    background-position-y: -250px;
+    background-repeat: no-repeat;
+    max-width: 1255px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.hero-bar .inner h1 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.hero-bar .inner .btn {
+    background-color: #fff;
+    color: #9E1F83;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.hero-1 {
+    width: 1200px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 24px;
+}
+
+.inspire {
+    background-color: white;
+}
+
+.my-card-outline {
+    width: 250px;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.my-card {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.my-card>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.my-card>p {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.special-items {
+    margin-top: 30px;
+    display: flex;
+}
+
+.testi {
+    display: flex;
+    flex-direction: column;
+}
+
+.testi>img {
+    width: 500px;
+    height: 500px;
+    padding: 80px;
+    border-radius: 8px;
+    gap: 24px;
+
+}
+.inspiration {
+    padding: 2rem;
+}
+
+.inspiration .tabs {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.inspiration .tabs a {
+    color: #000;
+    text-decoration: none;
+}
+
+.inspiration .tabs li {
+    padding: 0.7rem;
+}
+
+.inspiration .tabs li:hover {
+    background-color: #f7f7f7;
+}
+
+.inspiration .tabs li.active {
+    border-bottom: 1px solid #000;
+}
+
+.inspiration .types {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.inspiration .types li {
+    flex: 1 1 25%;
+    padding: 0.5rem;
+}
+
+.inspiration .types li b {
+    display: block;
+}
+
+.inspiration .types li span {
+    color: #595757;
+}
+footer {
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+footer .top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+footer .top h2 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+footer .top ul {
+    list-style: none;
+}
+
+footer .top ul a {
+    color: #262424;
+    margin-bottom: 0.8rem;
+    text-decoration: none;
+}
+
+footer .top ul li {
+    margin-bottom: 0.3rem;
+}
+
+footer .bottom {
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.9rem;
+}
+
+footer .bottom a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}

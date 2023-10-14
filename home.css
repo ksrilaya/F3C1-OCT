@@ -1,0 +1,99 @@
+.experience {
+    padding: 3rem 2rem;
+}
+
+.experience .slider {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.experience .card {
+    width: 100%;
+    margin: 0 1rem;
+    max-height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
+.experience .card img {
+    width: 100%;
+    height: 100%;
+}
+
+.experience .card h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+}
+
+.experience .card button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: #000;
+    margin-top: 1rem;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+.shop {
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.shop img {
+    max-width: 600px;
+    margin-left: auto;
+}
+
+.shop .btn {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.shop .lp {
+    padding-left: 2rem;
+}
+.hosting {
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 600px;
+}
+
+.hosting .inner {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 60%;
+    background-image: url(./Assets/host.png);
+}
+
+.hosting h2 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.hosting button {
+    background-color: #fff;
+    margin-top: 2rem;
+    color: #000;
+}
